@@ -1,0 +1,192 @@
+[
+  {
+    "number": "1",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "2",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "3",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "4",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "5",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "6",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "7",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "8",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "9",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "10",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "11",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "12",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "13",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "14",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "15",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "16",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "17",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "18",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "19",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "20",
+    "type": "top",
+    "state": "sold_out"
+  },
+  {
+    "number": "21",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "22",
+    "type": "top",
+    "state": "sold_out"
+  },
+  {
+    "number": "23",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "24",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "25",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "26",
+    "type": "top",
+    "state": "sold_out"
+  },
+  {
+    "number": "27",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "28",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "29",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "30",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "31",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "32",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "33",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "34",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "35",
+    "type": "bottom",
+    "state": "active"
+  },
+  {
+    "number": "36",
+    "type": "top",
+    "state": "active"
+  },
+  {
+    "number": "37",
+    "type": "bottom",
+    "state": "sold_out"
+  },
+  {
+    "number": "38",
+    "type": "top",
+    "state": "sold_out"
+  }
+]

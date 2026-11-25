@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-25T09:22:59.786421+00:00",
+  "train": "022А",
+  "departure_date": "2026-12-15",
+  "carriage_number": "2",
+  "source_url": "https://www.tutu.ru/poezda/order/?departure_st=2000000&arrival_st=2004000&dep_st=2006004&arr_st=2004001&tn=022%D0%90&date=15.12.2026+00:20:00&search-uid=19f151bf-bcab-414e-a932-b242c2fd1c12&card_id=7e6d58e16346ee62ef81832f6131dead&result_id=ff1601f3-920f-486c-bad8-3e0b25517b0f",
+  "comparisons": [
+    {
+      "seat": {
+        "number": "1",
+        "position": "lower",
+        "floor": null,
+        "compartment": "1",
+        "gender": null,
+        "price": {
+          "amount": 4971.19,
+          "currency": "RUB",
+          "kind": "exact",
+          "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+        },
+        "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+      },
+      "visible_summary": "К пассажирам\nОсталось 3 шага\n0 ₽\n4 ⁠972 ⁠₽"
+    },
+    {
+      "seat": {
+        "number": "2",
+        "position": "upper",
+        "floor": null,
+        "compartment": "1",
+        "gender": null,
+        "price": {
+          "amount": 4343.29,
+          "currency": "RUB",
+          "kind": "exact",
+          "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+        },
+        "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+      },
+      "visible_summary": "К пассажирам\nОсталось 3 шага\n0 ₽\n4 ⁠344 ⁠₽"
+    },
+    {
+      "seat": {
+        "number": "3",
+        "position": "lower",
+        "floor": null,
+        "compartment": "1",
+        "gender": null,
+        "price": {
+          "amount": 4971.19,
+          "currency": "RUB",
+          "kind": "exact",
+          "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+        },
+        "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+      },
+      "visible_summary": "К пассажирам\nОсталось 3 шага\n0 ₽\n4 ⁠972 ⁠₽"
+    }
+  ],
+  "available": 23,
+  "sold_out": [
+    "5",
+    "9",
+    "11",
+    "13",
+    "15",
+    "16",
+    "17",
+    "20",
+    "22",
+    "25",
+    "26",
+    "27",
+    "31",
+    "37",
+    "38"
+  ]
+}

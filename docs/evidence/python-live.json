@@ -1,0 +1,4119 @@
+{
+  "implementation": "Python",
+  "started_at": "2026-11-25T09:21:38.001231+00:00",
+  "checks": [
+    {
+      "tool": "search_trains",
+      "args": {
+        "origin": "Москва",
+        "destination": "Санкт-Петербург",
+        "departure_date": "2026-12-15"
+      },
+      "isError": false,
+      "data": {
+        "origin": "Москва",
+        "destination": "Санкт-Петербург",
+        "departure_date": "2026-12-15",
+        "trains": [
+          {
+            "result_id": "53d8d7ce-67e3-49f3-80fe-a5af8c569e7d",
+            "number": "030У",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "00:01",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "09:32",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч 31 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 2165.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 95
+              },
+              {
+                "type": "Купе",
+                "lower": 164,
+                "upper": 184,
+                "price": {
+                  "amount": 4039.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 348
+              },
+              {
+                "type": "СВ",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 11139.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "e6c5d42a-943a-4651-b283-2a1e140a88d7",
+            "number": "022А",
+            "name": "Ночной экспресс",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "00:20",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "09:27",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч 7 м в пути",
+            "categories": [
+              {
+                "type": "СВ",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3811.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              },
+              {
+                "type": "Купе",
+                "lower": 98,
+                "upper": 122,
+                "price": {
+                  "amount": 3909.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 220
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "3adce8b3-bf7d-46d5-aff1-b001a1284fd2",
+            "number": "016А",
+            "name": "Арктика",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "00:28",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "08:52",
+              "timezone": null,
+              "station": "Ладожский вокзал"
+            },
+            "duration": "8 ч 24 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 41,
+                "upper": 81,
+                "price": {
+                  "amount": 1856.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 122
+              },
+              {
+                "type": "Купе",
+                "lower": 11,
+                "upper": 14,
+                "price": {
+                  "amount": 2737.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 25
+              },
+              {
+                "type": "СВ",
+                "lower": 6,
+                "upper": 6,
+                "price": {
+                  "amount": 14947.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 12
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "5239546d-8d56-4abe-bfa3-05f87794bda7",
+            "number": "057М",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "01:00",
+              "timezone": null,
+              "station": "Киевский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "10:45",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч 45 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1689.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              },
+              {
+                "type": "Плацкарт",
+                "lower": 188,
+                "upper": 200,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 388
+              },
+              {
+                "type": "Купе",
+                "lower": 83,
+                "upper": 88,
+                "price": {
+                  "amount": 2709.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 171
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "7614369f-129f-412b-bf26-414727415f7c",
+            "number": "060*Г",
+            "name": "Волга",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "01:28",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "10:15",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "8 ч 47 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 21,
+                "upper": 27,
+                "price": {
+                  "amount": 3411.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 48
+              },
+              {
+                "type": "Купе",
+                "lower": 22,
+                "upper": 25,
+                "price": {
+                  "amount": 3519.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 47
+              },
+              {
+                "type": "СВ",
+                "lower": 11,
+                "upper": null,
+                "price": {
+                  "amount": 16605.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 11
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "1d2924a7-8991-4776-970c-542373902b35",
+            "number": "100С",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "02:10",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "10:38",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "8 ч 28 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1634.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 51
+              },
+              {
+                "type": "Плацкарт",
+                "lower": 99,
+                "upper": 173,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 272
+              },
+              {
+                "type": "Купе",
+                "lower": 52,
+                "upper": 63,
+                "price": {
+                  "amount": 3342.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 115
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "5f32a22f-8a79-419b-a577-bafae999d942",
+            "number": "122С",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "02:18",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "12:00",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч 42 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 12,
+                "upper": 94,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 106
+              },
+              {
+                "type": "Купе",
+                "lower": 26,
+                "upper": 35,
+                "price": {
+                  "amount": 3342.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 61
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "28d83c2c-74e9-4490-bd7b-51c833508b5c",
+            "number": "082В",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "02:42",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "11:22",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "8 ч 40 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1634.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 55
+              },
+              {
+                "type": "Купе",
+                "lower": 231,
+                "upper": 250,
+                "price": {
+                  "amount": 3342.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 481
+              },
+              {
+                "type": "СВ",
+                "lower": 22,
+                "upper": null,
+                "price": {
+                  "amount": 10203.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 22
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "660953fb-ed5e-4bef-89f8-1c7a3238de38",
+            "number": "090*Ж",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "03:08",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "12:17",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч 9 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 26,
+                "upper": 52,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 78
+              },
+              {
+                "type": "Купе",
+                "lower": 22,
+                "upper": 37,
+                "price": {
+                  "amount": 3342.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 59
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "7e1dfeae-35a7-4917-a3f1-e6e300fe488b",
+            "number": "754А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "05:45",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "09:37",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "3 ч 52 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3338.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 425
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "467a43aa-e6c0-4576-bc94-573ae829ba42",
+            "number": "742У",
+            "name": "Аврора (двухэтажный)",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "06:00",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "11:45",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "5 ч 45 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1860.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 718
+              },
+              {
+                "type": "Купе",
+                "lower": 32,
+                "upper": 36,
+                "price": {
+                  "amount": 2789.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 68
+              },
+              {
+                "type": "СВ",
+                "lower": 31,
+                "upper": null,
+                "price": {
+                  "amount": 11154.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 31
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "ce5dad1a-c255-4d7e-a1c9-336c73a1b8e2",
+            "number": "738В",
+            "name": "Ласточка ЭС2ГП",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "06:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "12:52",
+              "timezone": null,
+              "station": "Ладожский вокзал"
+            },
+            "duration": "6 ч 22 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1815.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 315
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "c86c4a10-6f6c-48e9-8ea9-5f912db5c7a8",
+            "number": "756А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "06:50",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "10:50",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3965.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 350
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "15fa5520-8bb5-41a4-bb84-d1ac8e13c147",
+            "number": "758А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "07:00",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "11:15",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч 15 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3965.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 332
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "2a93a6a5-5ac4-46b0-b31d-3c74f2c6ef1b",
+            "number": "760А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "09:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "13:32",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч 2 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 4517.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 176
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "c1efe9dd-8f3c-4bfd-8ac4-59369e83ae91",
+            "number": "762А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "09:40",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "13:50",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч 10 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 4101.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 245
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "9649836c-6268-4431-adf7-f7b5b3edd0a2",
+            "number": "768А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "13:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "17:30",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3928.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 234
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "165aa1ad-ad78-4833-9f4a-39f843ca2717",
+            "number": "770А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "13:40",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "17:40",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3838.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 344
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "f921745e-9a95-42b8-8eae-61b4c7592fc4",
+            "number": "744У",
+            "name": "Аврора",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "13:50",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "19:15",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "5 ч 25 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1465.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 694
+              },
+              {
+                "type": "Купе",
+                "lower": 30,
+                "upper": 34,
+                "price": {
+                  "amount": 3932.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 64
+              },
+              {
+                "type": "СВ",
+                "lower": 28,
+                "upper": null,
+                "price": {
+                  "amount": 9316.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 28
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "c4c492b5-8ac6-4a8b-8f53-612b63323af4",
+            "number": "064*Й",
+            "name": "Двухэтажный",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "14:54",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "21:55",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "7 ч 1 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 2165.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 92
+              },
+              {
+                "type": "Купе",
+                "lower": 105,
+                "upper": 107,
+                "price": {
+                  "amount": 3392.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 212
+              },
+              {
+                "type": "СВ",
+                "lower": 27,
+                "upper": null,
+                "price": {
+                  "amount": 13852.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 27
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "48559117-1b2a-43d2-9e70-2dcb66d69b21",
+            "number": "772А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "15:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "19:26",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "3 ч 56 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3838.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 352
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "10377581-ae16-44d5-88b8-316cec11a303",
+            "number": "774А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "15:40",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "19:35",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "3 ч 55 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3643.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 398
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "5d8ce428-4a72-4f5e-b8d2-746c0a6f8810",
+            "number": "724В",
+            "name": "Ласточка",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "15:45",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "21:05",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "5 ч 20 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1357.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 425
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "62e13047-65ee-4af0-bdff-735de230bedd",
+            "number": "038М",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "16:20",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "00:29",
+              "timezone": null,
+              "station": "Ладожский вокзал"
+            },
+            "duration": "8 ч 9 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1816.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 92
+              },
+              {
+                "type": "Купе",
+                "lower": 69,
+                "upper": 74,
+                "price": {
+                  "amount": 4154.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 143
+              },
+              {
+                "type": "СВ",
+                "lower": 12,
+                "upper": null,
+                "price": {
+                  "amount": 12622.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 12
+              },
+              {
+                "type": "Люкс",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 19046.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "b374326c-111b-47d6-88fa-06d6fb3ea2a8",
+            "number": "776А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "17:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "21:21",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "3 ч 51 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3838.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 364
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "44fbaa19-1b81-4aca-a73e-d20857b7757c",
+            "number": "778А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "17:40",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "21:42",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч 2 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3838.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 353
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "1bf599f5-06fa-473e-9b20-77cb68dd56ce",
+            "number": "746У",
+            "name": "АВРОРА",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "17:45",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "23:05",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "5 ч 20 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1860.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 703
+              },
+              {
+                "type": "Купе",
+                "lower": 33,
+                "upper": 35,
+                "price": {
+                  "amount": 2789.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 68
+              },
+              {
+                "type": "СВ",
+                "lower": 26,
+                "upper": null,
+                "price": {
+                  "amount": 11154.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 26
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "32ffda56-d277-4917-a066-6a9965061db7",
+            "number": "780А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "19:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "23:37",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч 7 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3838.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 329
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "9f0353eb-9994-432c-8318-a4b59c21983c",
+            "number": "136*С",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "19:30",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "05:30",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "10 ч в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 64,
+                "upper": 94,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 158
+              },
+              {
+                "type": "Купе",
+                "lower": 39,
+                "upper": 45,
+                "price": {
+                  "amount": 3208.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 84
+              },
+              {
+                "type": "СВ",
+                "lower": 11,
+                "upper": null,
+                "price": {
+                  "amount": 10472.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 11
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "a358669b-2680-4f3f-9dbe-0f6a1ed92864",
+            "number": "782А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "19:40",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "23:47",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "4 ч 7 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3838.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 366
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "0eb5e5ea-da8e-4cbe-92e7-23529e8011cc",
+            "number": "784А",
+            "name": "Сапсан",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "20:50",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "00:42",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "3 ч 52 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3456.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 402
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "02d11c76-bbaa-42aa-996c-31e241dad41b",
+            "number": "132Г",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "21:04",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "06:54",
+              "timezone": null,
+              "station": "Ладожский вокзал"
+            },
+            "duration": "9 ч 50 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 13,
+                "upper": 47,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 60
+              },
+              {
+                "type": "Купе",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 3067.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "418c2f3e-831f-4481-b37f-b0d336a67050",
+            "number": "120В",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "21:28",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "07:19",
+              "timezone": null,
+              "station": "Ладожский вокзал"
+            },
+            "duration": "9 ч 51 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 129,
+                "upper": 159,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 288
+              },
+              {
+                "type": "Купе",
+                "lower": 16,
+                "upper": 31,
+                "price": {
+                  "amount": 4138.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 47
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "4a6c6127-ecdb-4f16-b7cb-ba3620fb32e1",
+            "number": "032А",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "21:45",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "06:00",
+              "timezone": null,
+              "station": "Ладожский вокзал"
+            },
+            "duration": "8 ч 15 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 56,
+                "upper": 77,
+                "price": {
+                  "amount": 2493.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 133
+              },
+              {
+                "type": "Купе",
+                "lower": 23,
+                "upper": 25,
+                "price": {
+                  "amount": 4406.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 48
+              },
+              {
+                "type": "СВ",
+                "lower": 9,
+                "upper": null,
+                "price": {
+                  "amount": 8469.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 9
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "51b266ac-af47-4cf0-be38-efc45fdb3fe3",
+            "number": "028А",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "22:08",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "05:56",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "7 ч 48 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 125,
+                "upper": 154,
+                "price": {
+                  "amount": 2559.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 279
+              },
+              {
+                "type": "Купе",
+                "lower": 90,
+                "upper": 93,
+                "price": {
+                  "amount": 2606.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 183
+              },
+              {
+                "type": "СВ",
+                "lower": 12,
+                "upper": null,
+                "price": {
+                  "amount": 8340.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 12
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "4dff3a20-8cb3-4750-ad0a-e442d41cdf8a",
+            "number": "020У",
+            "name": "Мегаполис",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "22:50",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "07:00",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "8 ч 10 м в пути",
+            "categories": [
+              {
+                "type": "Купе",
+                "lower": 132,
+                "upper": 140,
+                "price": {
+                  "amount": 3861.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 272
+              },
+              {
+                "type": "СВ",
+                "lower": 34,
+                "upper": null,
+                "price": {
+                  "amount": 10414.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 34
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "9f61790e-f1dd-47e7-8602-171a2a411d7d",
+            "number": "054А",
+            "name": "Гранд Экспресс",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "23:00",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "08:00",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч в пути",
+            "categories": [
+              {
+                "type": "Купе",
+                "lower": 24,
+                "upper": 30,
+                "price": {
+                  "amount": 6417.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 54
+              },
+              {
+                "type": "СВ",
+                "lower": 49,
+                "upper": 6,
+                "price": {
+                  "amount": 10298.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 55
+              },
+              {
+                "type": "Люкс",
+                "lower": 6,
+                "upper": 5,
+                "price": {
+                  "amount": 25176.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 11
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "ed382a63-fede-48c0-8fd7-f20f6c642c91",
+            "number": "026А",
+            "name": "Смена – А. Бетанкур (двухэтажный)",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "23:10",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "07:07",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "7 ч 57 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1115.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              },
+              {
+                "type": "Купе",
+                "lower": 306,
+                "upper": 322,
+                "price": {
+                  "amount": 2556.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 628
+              },
+              {
+                "type": "СВ",
+                "lower": 26,
+                "upper": null,
+                "price": {
+                  "amount": 8506.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 26
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "3f73b193-c40c-4aae-8a20-c7dbd69ed480",
+            "number": "004А",
+            "name": "Экспресс",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "23:30",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "08:30",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч в пути",
+            "categories": [
+              {
+                "type": "Купе",
+                "lower": 50,
+                "upper": 62,
+                "price": {
+                  "amount": 3613.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 112
+              },
+              {
+                "type": "Люкс",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 7190.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              },
+              {
+                "type": "СВ",
+                "lower": 24,
+                "upper": null,
+                "price": {
+                  "amount": 8954.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 24
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "5be51c32-3d8a-438d-b209-b1c309f8ae77",
+            "number": "050*С",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "23:32",
+              "timezone": null,
+              "station": "Восточный вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "08:40",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "9 ч 8 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 29,
+                "upper": 93,
+                "price": {
+                  "amount": 2500.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 122
+              },
+              {
+                "type": "Купе",
+                "lower": 38,
+                "upper": 51,
+                "price": {
+                  "amount": 2952.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 89
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "9e64a08c-878e-4c68-9c8d-fef6df04f239",
+            "number": "002А",
+            "name": "Красная стрела",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "23:55",
+              "timezone": null,
+              "station": "Ленинградский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "07:55",
+              "timezone": null,
+              "station": "Московский вокзал"
+            },
+            "duration": "8 ч в пути",
+            "categories": [
+              {
+                "type": "Купе",
+                "lower": 58,
+                "upper": 70,
+                "price": {
+                  "amount": 3706.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 128
+              },
+              {
+                "type": "СВ",
+                "lower": 85,
+                "upper": null,
+                "price": {
+                  "amount": 10094.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 85
+              },
+              {
+                "type": "Люкс",
+                "lower": 3,
+                "upper": 3,
+                "price": {
+                  "amount": 24567.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 6
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:21:56.513637+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          }
+        ],
+        "checked_at": "2026-11-25T09:21:56.513637+00:00",
+        "expires_at": "2026-11-25T09:36:56.516217+00:00",
+        "listing_complete": null,
+        "warnings": [
+          "Список догружен до прекращения роста; сайт не сообщает явный признак полноты выдачи.",
+          "Прямые поезда, включая проходящие. Пересадки не подбираются."
+        ]
+      }
+    },
+    {
+      "tool": "get_train_seats",
+      "args": {
+        "result_id": "e6c5d42a-943a-4651-b283-2a1e140a88d7"
+      },
+      "isError": false,
+      "data": {
+        "result_id": "e6c5d42a-943a-4651-b283-2a1e140a88d7",
+        "train": {
+          "result_id": "e6c5d42a-943a-4651-b283-2a1e140a88d7",
+          "number": "022А",
+          "name": "Ночной экспресс",
+          "departure": {
+            "date": "2026-12-15",
+            "time": "00:20",
+            "timezone": null,
+            "station": "Ленинградский вокзал"
+          },
+          "arrival": {
+            "date": "2026-12-15",
+            "time": "09:27",
+            "timezone": null,
+            "station": "Московский вокзал"
+          },
+          "duration": "9 ч 7 м в пути",
+          "categories": [
+            {
+              "type": "СВ",
+              "lower": null,
+              "upper": null,
+              "price": {
+                "amount": 3811.0,
+                "currency": "RUB",
+                "kind": "from",
+                "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+              },
+              "available": 0
+            },
+            {
+              "type": "Купе",
+              "lower": 98,
+              "upper": 122,
+              "price": {
+                "amount": 3909.0,
+                "currency": "RUB",
+                "kind": "from",
+                "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+              },
+              "available": 220
+            }
+          ],
+          "source_url": "https://www.tutu.ru/poezda/Moskva/Sankt-Peterburg/?date=15.12.2026&travelers=1",
+          "checked_at": "2026-11-25T09:21:56.513637+00:00",
+          "warnings": [
+            "Часовые пояса не установлены; время приведено как на сайте.",
+            "Цена и наличие могут измениться до оформления."
+          ]
+        },
+        "route": {
+          "origin": "Москва",
+          "destination": "Санкт-Петербург",
+          "departure_date": "2026-12-15"
+        },
+        "carriages": [
+          {
+            "carriage_number": "2",
+            "type": "Купе",
+            "available": 23,
+            "availability_text": "23 места, 14 верх, 9 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Wi-Fi"
+            ]
+          },
+          {
+            "carriage_number": "3",
+            "type": "Купе",
+            "available": 22,
+            "availability_text": "22 места, 18 верх, 4 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Женское или мужское купе"
+            ]
+          },
+          {
+            "carriage_number": "4",
+            "type": "Купе",
+            "available": 36,
+            "availability_text": "36 мест, 18 верх, 18 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Питание"
+            ]
+          },
+          {
+            "carriage_number": "5",
+            "type": "Купе",
+            "available": 30,
+            "availability_text": "30 мест, 14 верх, 16 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Питание"
+            ]
+          },
+          {
+            "carriage_number": "9",
+            "type": "Купе",
+            "available": 25,
+            "availability_text": "25 мест, 14 верх, 11 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет",
+              "Питание",
+              "Wi-Fi"
+            ]
+          },
+          {
+            "carriage_number": "10",
+            "type": "Купе",
+            "available": 35,
+            "availability_text": "35 мест, 18 верх, 17 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет",
+              "Питание",
+              "Wi-Fi"
+            ]
+          },
+          {
+            "carriage_number": "11",
+            "type": "Купе",
+            "available": 29,
+            "availability_text": "29 мест, 16 верх, 13 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Питание"
+            ]
+          },
+          {
+            "carriage_number": "12",
+            "type": "Купе",
+            "available": 20,
+            "availability_text": "20 мест, 10 верх, 10 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Wi-Fi"
+            ]
+          }
+        ],
+        "source_url": "https://www.tutu.ru/poezda/order/?departure_st=2000000&arrival_st=2004000&dep_st=2006004&arr_st=2004001&tn=022%D0%90&date=15.12.2026+00:20:00&search-uid=d4f8e9f9-2464-4ddb-8da4-1fabb5af0128&card_id=7e6d58e16346ee62ef81832f6131dead&result_id=c4a2cf80-af62-47af-8e7b-2a2f1e9ca4ce",
+        "checked_at": "2026-11-25T09:22:01.116458+00:00",
+        "warnings": [
+          "Для номеров мест и полок вызовите get_carriage_seats.",
+          "Наличие может измениться до оформления."
+        ]
+      }
+    },
+    {
+      "tool": "get_carriage_seats",
+      "args": {
+        "result_id": "e6c5d42a-943a-4651-b283-2a1e140a88d7",
+        "carriage_number": "2"
+      },
+      "isError": false,
+      "data": {
+        "result_id": "e6c5d42a-943a-4651-b283-2a1e140a88d7",
+        "train": "022А",
+        "route": {
+          "origin": "Москва",
+          "destination": "Санкт-Петербург",
+          "departure_date": "2026-12-15",
+          "departure_utc": "2026-12-14T21:20:00.000Z",
+          "arrival_utc": "2026-12-15T06:27:00.000Z",
+          "departure_timezone": "Europe/Moscow",
+          "arrival_timezone": "Europe/Moscow"
+        },
+        "carriage": {
+          "number": "2",
+          "type": "Купе",
+          "service_class": "2К",
+          "available": 23,
+          "seats": [
+            {
+              "number": "1",
+              "position": "lower",
+              "floor": null,
+              "compartment": "1",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "2",
+              "position": "upper",
+              "floor": null,
+              "compartment": "1",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "3",
+              "position": "lower",
+              "floor": null,
+              "compartment": "1",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "4",
+              "position": "upper",
+              "floor": null,
+              "compartment": "1",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "6",
+              "position": "upper",
+              "floor": null,
+              "compartment": "2",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "7",
+              "position": "lower",
+              "floor": null,
+              "compartment": "2",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "8",
+              "position": "upper",
+              "floor": null,
+              "compartment": "2",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "10",
+              "position": "upper",
+              "floor": null,
+              "compartment": "3",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "12",
+              "position": "upper",
+              "floor": null,
+              "compartment": "3",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "14",
+              "position": "upper",
+              "floor": null,
+              "compartment": "4",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "18",
+              "position": "upper",
+              "floor": null,
+              "compartment": "5",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "19",
+              "position": "lower",
+              "floor": null,
+              "compartment": "5",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "21",
+              "position": "lower",
+              "floor": null,
+              "compartment": "6",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "23",
+              "position": "lower",
+              "floor": null,
+              "compartment": "6",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "24",
+              "position": "upper",
+              "floor": null,
+              "compartment": "6",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "28",
+              "position": "upper",
+              "floor": null,
+              "compartment": "7",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "29",
+              "position": "lower",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "30",
+              "position": "upper",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "32",
+              "position": "upper",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "33",
+              "position": "lower",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "34",
+              "position": "upper",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "35",
+              "position": "lower",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 5105.99,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "36",
+              "position": "upper",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 4463.09,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            }
+          ],
+          "services": [
+            "Купейный без услуг, 4-местные купе, кондиционер (работает в летний период), биотуалет, розетки 220В, Wi-Fi (услуга не гарантирована). Возможен провоз животных (см. правила перевозки).",
+            "Условия зависят от формата поездки: выкупили ли вы купе целиком или нет.\nЕсли вы выкупили купе целиком, доплата за животных не нужна. Но нужно оформить бесплатный перевозочный документ на каждого питомца. Сделать это можно в кассе до отправления поезда. На 1 месте можно провезти 1 переноску с питомцем или одну крупную собаку без переноски, но в наморднике и на поводке — путешествовать она будет на полу купе. Количество переносок и крупных собак не должно быть больше количества мест в купе.\nЕсли купе выкуплено не полностью, 1 пассажир может провезти не более 2 небольших домашних животных — собак, кошек или птиц. Ехать с крупной собакой нельзя. Питомцы должны путешествовать в переноске, размер которой не должен превышать 180 см по сумме длины, ширины и высоты. Животным и птицам должно быть комфортно внутри переноски на протяжении всей поездки. На каждую переноску нужен отдельный платный перевозочный документ. Оформить его можно в кассе вокзала до отправления поезда.",
+            "Кондиционер",
+            "Можно с питомцем",
+            "Биотуалет",
+            "Wi-Fi",
+            "Вагон-ресторан или буфет",
+            "Дорожный набор",
+            "Тапочки",
+            "Постельное бельё"
+          ]
+        },
+        "source_url": "https://www.tutu.ru/poezda/order/?departure_st=2000000&arrival_st=2004000&dep_st=2006004&arr_st=2004001&tn=022%D0%90&date=15.12.2026+00:20:00&search-uid=a24c640b-118b-401e-b12d-69e420e9cdb1&card_id=7e6d58e16346ee62ef81832f6131dead&result_id=6feb9f0e-0c88-4ab6-b4df-ccd213029d98",
+        "checked_at": "2026-11-25T09:22:08.367060+00:00",
+        "warnings": [
+          "Этаж и пол купе возвращаются null: коды не проверены для всех схем.",
+          "Цена обычного взрослого тарифа может отличаться от рекламной цены со скидкой.",
+          "Места могут измениться до оформления."
+        ]
+      }
+    },
+    {
+      "scenario": "нижнее до 6000 рублей",
+      "matches": [
+        {
+          "number": "1",
+          "position": "lower",
+          "floor": null,
+          "compartment": "1",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "3",
+          "position": "lower",
+          "floor": null,
+          "compartment": "1",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "7",
+          "position": "lower",
+          "floor": null,
+          "compartment": "2",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "19",
+          "position": "lower",
+          "floor": null,
+          "compartment": "5",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "21",
+          "position": "lower",
+          "floor": null,
+          "compartment": "6",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "23",
+          "position": "lower",
+          "floor": null,
+          "compartment": "6",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "29",
+          "position": "lower",
+          "floor": null,
+          "compartment": "8",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "33",
+          "position": "lower",
+          "floor": null,
+          "compartment": "9",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "35",
+          "position": "lower",
+          "floor": null,
+          "compartment": "9",
+          "gender": null,
+          "price": {
+            "amount": 5105.99,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        }
+      ]
+    },
+    {
+      "tool": "search_trains",
+      "args": {
+        "origin": "Москва",
+        "destination": "Казань",
+        "departure_date": "2026-12-15"
+      },
+      "isError": false,
+      "data": {
+        "origin": "Москва",
+        "destination": "Казань",
+        "departure_date": "2026-12-15",
+        "trains": [
+          {
+            "result_id": "54b18efe-d940-4a53-a075-1e0cf617d723",
+            "number": "130Х",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "00:20",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-15",
+              "time": "13:27",
+              "timezone": null,
+              "station": "Казань Пасс"
+            },
+            "duration": "13 ч 7 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1574.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 0
+              },
+              {
+                "type": "Плацкарт",
+                "lower": 66,
+                "upper": 121,
+                "price": {
+                  "amount": 2686.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 187
+              },
+              {
+                "type": "Купе",
+                "lower": 66,
+                "upper": 70,
+                "price": {
+                  "amount": 3010.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 136
+              },
+              {
+                "type": "СВ",
+                "lower": 31,
+                "upper": null,
+                "price": {
+                  "amount": 9273.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 31
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "36ab0d04-3c06-4c61-8522-1a7eeeca69dd",
+            "number": "056М",
+            "name": "Урал",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "13:15",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "00:27",
+              "timezone": null,
+              "station": "Казань-2 − Восстание Пасс."
+            },
+            "duration": "11 ч 12 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 45,
+                "upper": 123,
+                "price": {
+                  "amount": 2535.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 168
+              },
+              {
+                "type": "Купе",
+                "lower": 56,
+                "upper": 78,
+                "price": {
+                  "amount": 4434.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 134
+              },
+              {
+                "type": "СВ",
+                "lower": 3,
+                "upper": 4,
+                "price": {
+                  "amount": 16352.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 7
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "fdb35a99-1c97-4a39-9016-47b89218c5d9",
+            "number": "118Н",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "16:23",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "05:00",
+              "timezone": null,
+              "station": "Казань-2 − Восстание Пасс."
+            },
+            "duration": "12 ч 37 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 13,
+                "upper": 102,
+                "price": {
+                  "amount": 2686.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 115
+              },
+              {
+                "type": "Купе",
+                "lower": 55,
+                "upper": 63,
+                "price": {
+                  "amount": 3583.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 118
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "2174b352-4422-47f5-ae5d-996e630e3f2c",
+            "number": "060М",
+            "name": "Тюмень",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "16:38",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "05:10",
+              "timezone": null,
+              "station": "Казань-2 − Восстание Пасс."
+            },
+            "duration": "12 ч 32 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 83,
+                "upper": 164,
+                "price": {
+                  "amount": 2535.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 247
+              },
+              {
+                "type": "Купе",
+                "lower": 33,
+                "upper": 49,
+                "price": {
+                  "amount": 3441.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 82
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "debdce43-1c45-44ed-873d-4a92e014d79c",
+            "number": "026Г",
+            "name": "Италмас (двухэтажный)",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "17:44",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "05:21",
+              "timezone": null,
+              "station": "Казань-2 − Восстание Пасс."
+            },
+            "duration": "11 ч 37 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 2400.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 56
+              },
+              {
+                "type": "Купе",
+                "lower": 115,
+                "upper": 120,
+                "price": {
+                  "amount": 3557.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 235
+              },
+              {
+                "type": "СВ",
+                "lower": 23,
+                "upper": null,
+                "price": {
+                  "amount": 14098.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 23
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "00536cc0-8b45-4e60-b8b8-2e12588aeeb0",
+            "number": "128М",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "19:16",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "07:50",
+              "timezone": null,
+              "station": "Казань Пасс"
+            },
+            "duration": "12 ч 34 м в пути",
+            "categories": [
+              {
+                "type": "Сидячий",
+                "lower": null,
+                "upper": null,
+                "price": {
+                  "amount": 1665.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 139
+              },
+              {
+                "type": "Плацкарт",
+                "lower": null,
+                "upper": 33,
+                "price": {
+                  "amount": 2686.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 33
+              },
+              {
+                "type": "Купе",
+                "lower": 56,
+                "upper": 64,
+                "price": {
+                  "amount": 3190.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 120
+              },
+              {
+                "type": "СВ",
+                "lower": 20,
+                "upper": null,
+                "price": {
+                  "amount": 9597.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 20
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "dd469bad-50d4-4906-be6a-c97163553933",
+            "number": "002Й",
+            "name": "Премиум",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "20:40",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "08:00",
+              "timezone": null,
+              "station": "Казань Пасс"
+            },
+            "duration": "11 ч 20 м в пути",
+            "categories": [
+              {
+                "type": "Купе",
+                "lower": 81,
+                "upper": 102,
+                "price": {
+                  "amount": 5334.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 183
+              },
+              {
+                "type": "СВ",
+                "lower": 20,
+                "upper": null,
+                "price": {
+                  "amount": 18406.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 20
+              },
+              {
+                "type": "Люкс",
+                "lower": 1,
+                "upper": 1,
+                "price": {
+                  "amount": 34869.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 2
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "3238d837-6e21-491d-9949-e6cf56a07a14",
+            "number": "100М",
+            "name": null,
+            "departure": {
+              "date": "2026-12-15",
+              "time": "21:05",
+              "timezone": null,
+              "station": "Ярославский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "14:20",
+              "timezone": null,
+              "station": "Казань Пасс"
+            },
+            "duration": "17 ч 15 м в пути",
+            "categories": [
+              {
+                "type": "Плацкарт",
+                "lower": 66,
+                "upper": 79,
+                "price": {
+                  "amount": 3095.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 145
+              },
+              {
+                "type": "Купе",
+                "lower": 22,
+                "upper": 29,
+                "price": {
+                  "amount": 3302.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 51
+              },
+              {
+                "type": "СВ",
+                "lower": 14,
+                "upper": null,
+                "price": {
+                  "amount": 11070.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 14
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          },
+          {
+            "result_id": "01553226-bb7c-4ce1-abb6-def0a8bec11d",
+            "number": "024М",
+            "name": "Двухэтажный",
+            "departure": {
+              "date": "2026-12-15",
+              "time": "23:23",
+              "timezone": null,
+              "station": "Казанский вокзал"
+            },
+            "arrival": {
+              "date": "2026-12-16",
+              "time": "10:49",
+              "timezone": null,
+              "station": "Казань Пасс"
+            },
+            "duration": "11 ч 26 м в пути",
+            "categories": [
+              {
+                "type": "Купе",
+                "lower": 177,
+                "upper": 210,
+                "price": {
+                  "amount": 3678.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 387
+              },
+              {
+                "type": "СВ",
+                "lower": 19,
+                "upper": null,
+                "price": {
+                  "amount": 14098.0,
+                  "currency": "RUB",
+                  "kind": "from",
+                  "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+                },
+                "available": 19
+              }
+            ],
+            "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+            "checked_at": "2026-11-25T09:22:21.939961+00:00",
+            "warnings": [
+              "Поезд двухэтажный; этаж места требует отдельного подтверждения.",
+              "Часовые пояса не установлены; время приведено как на сайте.",
+              "Цена и наличие могут измениться до оформления."
+            ]
+          }
+        ],
+        "checked_at": "2026-11-25T09:22:21.939961+00:00",
+        "expires_at": "2026-11-25T09:37:21.940402+00:00",
+        "listing_complete": null,
+        "warnings": [
+          "Список догружен до прекращения роста; сайт не сообщает явный признак полноты выдачи.",
+          "Прямые поезда, включая проходящие. Пересадки не подбираются."
+        ]
+      }
+    },
+    {
+      "tool": "get_train_seats",
+      "args": {
+        "result_id": "54b18efe-d940-4a53-a075-1e0cf617d723"
+      },
+      "isError": false,
+      "data": {
+        "result_id": "54b18efe-d940-4a53-a075-1e0cf617d723",
+        "train": {
+          "result_id": "54b18efe-d940-4a53-a075-1e0cf617d723",
+          "number": "130Х",
+          "name": null,
+          "departure": {
+            "date": "2026-12-15",
+            "time": "00:20",
+            "timezone": null,
+            "station": "Казанский вокзал"
+          },
+          "arrival": {
+            "date": "2026-12-15",
+            "time": "13:27",
+            "timezone": null,
+            "station": "Казань Пасс"
+          },
+          "duration": "13 ч 7 м в пути",
+          "categories": [
+            {
+              "type": "Сидячий",
+              "lower": null,
+              "upper": null,
+              "price": {
+                "amount": 1574.0,
+                "currency": "RUB",
+                "kind": "from",
+                "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+              },
+              "available": 0
+            },
+            {
+              "type": "Плацкарт",
+              "lower": 66,
+              "upper": 121,
+              "price": {
+                "amount": 2686.0,
+                "currency": "RUB",
+                "kind": "from",
+                "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+              },
+              "available": 187
+            },
+            {
+              "type": "Купе",
+              "lower": 66,
+              "upper": 70,
+              "price": {
+                "amount": 3010.0,
+                "currency": "RUB",
+                "kind": "from",
+                "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+              },
+              "available": 136
+            },
+            {
+              "type": "СВ",
+              "lower": 31,
+              "upper": null,
+              "price": {
+                "amount": 9273.0,
+                "currency": "RUB",
+                "kind": "from",
+                "conditions": "Цена из выдачи; условия скидки и способ оплаты не установлены. Не цена каждого места."
+              },
+              "available": 31
+            }
+          ],
+          "source_url": "https://www.tutu.ru/poezda/Moskva/Kazan/?date=15.12.2026&travelers=1",
+          "checked_at": "2026-11-25T09:22:21.939961+00:00",
+          "warnings": [
+            "Часовые пояса не установлены; время приведено как на сайте.",
+            "Цена и наличие могут измениться до оформления."
+          ]
+        },
+        "route": {
+          "origin": "Москва",
+          "destination": "Казань",
+          "departure_date": "2026-12-15"
+        },
+        "carriages": [
+          {
+            "carriage_number": "1",
+            "type": "Плацкарт",
+            "available": 43,
+            "availability_text": "43 места, 25 верх, 18 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "2",
+            "type": "Плацкарт",
+            "available": 47,
+            "availability_text": "47 мест, 27 верх, 20 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "3",
+            "type": "Плацкарт",
+            "available": 43,
+            "availability_text": "43 места, 26 верх, 17 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "4",
+            "type": "Плацкарт",
+            "available": 28,
+            "availability_text": "28 мест, 22 верх, 6 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "5",
+            "type": "Плацкарт",
+            "available": 26,
+            "availability_text": "26 мест, 21 верх, 5 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "10",
+            "type": "Купе",
+            "available": 22,
+            "availability_text": "22 места, 11 верх, 11 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет",
+              "Женское или мужское купе"
+            ]
+          },
+          {
+            "carriage_number": "11",
+            "type": "Купе",
+            "available": 13,
+            "availability_text": "13 мест, 7 верх, 6 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "12",
+            "type": "Купе",
+            "available": 32,
+            "availability_text": "32 места, 16 верх, 16 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "13",
+            "type": "Купе",
+            "available": 36,
+            "availability_text": "36 мест, 18 верх, 18 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "14",
+            "type": "Купе",
+            "available": 33,
+            "availability_text": "33 места, 18 верх, 15 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет"
+            ]
+          },
+          {
+            "carriage_number": "8",
+            "type": "СВ",
+            "available": 14,
+            "availability_text": "14 мест, 14 ниж",
+            "services": [
+              "Кондиционер",
+              "Можно с питомцем",
+              "Биотуалет",
+              "Женское или мужское купе"
+            ]
+          },
+          {
+            "carriage_number": "9",
+            "type": "СВ",
+            "available": 17,
+            "availability_text": "17 мест, 17 ниж",
+            "services": [
+              "Кондиционер",
+              "Биотуалет",
+              "Дорожный набор",
+              "Газеты или журналы"
+            ]
+          }
+        ],
+        "source_url": "https://www.tutu.ru/poezda/order/?departure_st=2000000&arrival_st=2060615&dep_st=2000003&arr_st=2060500&tn=130%D0%A5&date=15.12.2026+00:20:00&search-uid=be2e994f-7186-4fe5-880d-f5c24aa30fb4&card_id=3cb333ca845a6e8ab6c0f771bfd5ccdf&result_id=3968f4dd-26b0-4e6d-9e69-866c9210da25",
+        "checked_at": "2026-11-25T09:22:25.893920+00:00",
+        "warnings": [
+          "Для номеров мест и полок вызовите get_carriage_seats.",
+          "Наличие может измениться до оформления."
+        ]
+      }
+    },
+    {
+      "tool": "get_carriage_seats",
+      "args": {
+        "result_id": "54b18efe-d940-4a53-a075-1e0cf617d723",
+        "carriage_number": "10"
+      },
+      "isError": false,
+      "data": {
+        "result_id": "54b18efe-d940-4a53-a075-1e0cf617d723",
+        "train": "130Х",
+        "route": {
+          "origin": "Москва",
+          "destination": "Казань",
+          "departure_date": "2026-12-15",
+          "departure_utc": "2026-12-14T21:20:00.000Z",
+          "arrival_utc": "2026-12-15T10:27:00.000Z",
+          "departure_timezone": "Europe/Moscow",
+          "arrival_timezone": "Europe/Moscow"
+        },
+        "carriage": {
+          "number": "10",
+          "type": "Купе",
+          "service_class": "2Ш",
+          "available": 22,
+          "seats": [
+            {
+              "number": "5",
+              "position": "lower",
+              "floor": null,
+              "compartment": "2",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "7",
+              "position": "lower",
+              "floor": null,
+              "compartment": "2",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "9",
+              "position": "lower",
+              "floor": null,
+              "compartment": "3",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "14",
+              "position": "upper",
+              "floor": null,
+              "compartment": "4",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "16",
+              "position": "upper",
+              "floor": null,
+              "compartment": "4",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "18",
+              "position": "upper",
+              "floor": null,
+              "compartment": "5",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "19",
+              "position": "lower",
+              "floor": null,
+              "compartment": "5",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "20",
+              "position": "upper",
+              "floor": null,
+              "compartment": "5",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "22",
+              "position": "upper",
+              "floor": null,
+              "compartment": "6",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "23",
+              "position": "lower",
+              "floor": null,
+              "compartment": "6",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "24",
+              "position": "upper",
+              "floor": null,
+              "compartment": "6",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "25",
+              "position": "lower",
+              "floor": null,
+              "compartment": "7",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "26",
+              "position": "upper",
+              "floor": null,
+              "compartment": "7",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "27",
+              "position": "lower",
+              "floor": null,
+              "compartment": "7",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "28",
+              "position": "upper",
+              "floor": null,
+              "compartment": "7",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "29",
+              "position": "lower",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "30",
+              "position": "upper",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "31",
+              "position": "lower",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "32",
+              "position": "upper",
+              "floor": null,
+              "compartment": "8",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "33",
+              "position": "lower",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "34",
+              "position": "upper",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 4145.19,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=top; купе из seatsGroups. Этаж и пол не интерпретированы."
+            },
+            {
+              "number": "35",
+              "position": "lower",
+              "floor": null,
+              "compartment": "9",
+              "gender": null,
+              "price": {
+                "amount": 5555.69,
+                "currency": "RUB",
+                "kind": "exact",
+                "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+              },
+              "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+            }
+          ],
+          "services": [
+            "Крупных собак и мелких животных провозить запрещено.",
+            "Кондиционер",
+            "Биотуалет",
+            "Постельное бельё"
+          ]
+        },
+        "source_url": "https://www.tutu.ru/poezda/order/?departure_st=2000000&arrival_st=2060615&dep_st=2000003&arr_st=2060500&tn=130%D0%A5&date=15.12.2026+00:20:00&search-uid=aeed9fac-5ae2-4afe-9193-10a57d371066&card_id=3cb333ca845a6e8ab6c0f771bfd5ccdf&result_id=715fef62-b15a-4e98-b4d8-3af811613641",
+        "checked_at": "2026-11-25T09:22:31.154159+00:00",
+        "warnings": [
+          "Этаж и пол купе возвращаются null: коды не проверены для всех схем.",
+          "Цена обычного взрослого тарифа может отличаться от рекламной цены со скидкой.",
+          "Места могут измениться до оформления."
+        ]
+      }
+    },
+    {
+      "scenario": "нижнее до 6000 рублей",
+      "matches": [
+        {
+          "number": "5",
+          "position": "lower",
+          "floor": null,
+          "compartment": "2",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "7",
+          "position": "lower",
+          "floor": null,
+          "compartment": "2",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "9",
+          "position": "lower",
+          "floor": null,
+          "compartment": "3",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "19",
+          "position": "lower",
+          "floor": null,
+          "compartment": "5",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "23",
+          "position": "lower",
+          "floor": null,
+          "compartment": "6",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "25",
+          "position": "lower",
+          "floor": null,
+          "compartment": "7",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "27",
+          "position": "lower",
+          "floor": null,
+          "compartment": "7",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "29",
+          "position": "lower",
+          "floor": null,
+          "compartment": "8",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "31",
+          "position": "lower",
+          "floor": null,
+          "compartment": "8",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "33",
+          "position": "lower",
+          "floor": null,
+          "compartment": "9",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        },
+        {
+          "number": "35",
+          "position": "lower",
+          "floor": null,
+          "compartment": "9",
+          "gender": null,
+          "price": {
+            "amount": 5555.69,
+            "currency": "RUB",
+            "kind": "exact",
+            "conditions": "Обычный взрослый тариф из price.total для группы этого места; без условной платёжной скидки. Итог подтвердится при оформлении."
+          },
+          "evidence": "DOM data-ti-state=active; data-ti-type=bottom; купе из seatsGroups. Этаж и пол не интерпретированы."
+        }
+      ]
+    },
+    {
+      "scenario": "прошедшая дата",
+      "isError": true,
+      "data": {
+        "error": {
+          "code": "PAST_DATE",
+          "message": "Дата отправления уже прошла",
+          "details": null
+        },
+        "checked_at": "2026-11-25T09:22:31.178122+00:00"
+      }
+    }
+  ],
+  "tools": [
+    "search_trains",
+    "get_train_seats",
+    "get_carriage_seats"
+  ],
+  "protocol": "2026-07-28",
+  "success": true,
+  "finished_at": "2026-11-25T09:22:31.344018+00:00"
+}

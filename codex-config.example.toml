@@ -1,0 +1,10 @@
+[mcp_servers.tutu-trains]
+command = "/ABSOLUTE/PATH/tutu-mcp/.venv/bin/python"
+args = ["/ABSOLUTE/PATH/tutu-mcp/server.py"]
+startup_timeout_sec = 20
+tool_timeout_sec = 180
+
+[mcp_servers.tutu-trains.env]
+BROWSER_CHANNEL = "chrome"
+USER_TIMEZONE = "Europe/Moscow"
+HEADED = "0"

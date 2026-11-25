@@ -1,0 +1,1966 @@
+{
+  "dictionaries": {
+    "cars": {
+      "44a4cd622eea211dac60978fc935f024": {
+        "hash": "44a4cd622eea211dac60978fc935f024",
+        "type": 3,
+        "carrier": "0f9047bae8020b078426a08b17276a5c",
+        "number": "2",
+        "seatsGroups": [
+          "d16a8be5d1593bf863130e5ac3ea75bf",
+          "9ef222e663d42992f9fd7363289ec6e2",
+          "b59cdec91f9842f91b1c3d1172c676f0",
+          "74075473f188c25181e5eae167112f6c",
+          "171ea6e0e608c92107929f71ac04de80",
+          "1e6129e60263e56b599104306e59df98"
+        ],
+        "isNoInterchangeCar": false
+      }
+    },
+    "seatsGroups": {
+      "d16a8be5d1593bf863130e5ac3ea75bf": {
+        "hash": "d16a8be5d1593bf863130e5ac3ea75bf",
+        "serviceClassHash": "5f067d86e751fe0653dc205503842f2e",
+        "carHash": "44a4cd622eea211dac60978fc935f024",
+        "type": 6,
+        "seatsCount": 11,
+        "isGender": false,
+        "reservationType": 0,
+        "seats": [
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "6",
+            "compartmentNumber": 2
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "8",
+            "compartmentNumber": 2
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "10",
+            "compartmentNumber": 3
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "12",
+            "compartmentNumber": 3
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "14",
+            "compartmentNumber": 4
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "16",
+            "compartmentNumber": 4
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "18",
+            "compartmentNumber": 5
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "24",
+            "compartmentNumber": 6
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "28",
+            "compartmentNumber": 7
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "30",
+            "compartmentNumber": 8
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "32",
+            "compartmentNumber": 8
+          }
+        ]
+      },
+      "9ef222e663d42992f9fd7363289ec6e2": {
+        "hash": "9ef222e663d42992f9fd7363289ec6e2",
+        "serviceClassHash": "5f067d86e751fe0653dc205503842f2e",
+        "carHash": "44a4cd622eea211dac60978fc935f024",
+        "type": 2,
+        "seatsCount": 6,
+        "isGender": false,
+        "reservationType": 0,
+        "seats": [
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "7",
+            "compartmentNumber": 2
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "15",
+            "compartmentNumber": 4
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "19",
+            "compartmentNumber": 5
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "21",
+            "compartmentNumber": 6
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "23",
+            "compartmentNumber": 6
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "29",
+            "compartmentNumber": 8
+          }
+        ]
+      },
+      "b59cdec91f9842f91b1c3d1172c676f0": {
+        "hash": "b59cdec91f9842f91b1c3d1172c676f0",
+        "serviceClassHash": "5f067d86e751fe0653dc205503842f2e",
+        "carHash": "44a4cd622eea211dac60978fc935f024",
+        "type": 2,
+        "seatsCount": 2,
+        "isGender": false,
+        "reservationType": 0,
+        "seats": [
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "1",
+            "compartmentNumber": 1
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "3",
+            "compartmentNumber": 1
+          }
+        ]
+      },
+      "74075473f188c25181e5eae167112f6c": {
+        "hash": "74075473f188c25181e5eae167112f6c",
+        "serviceClassHash": "5f067d86e751fe0653dc205503842f2e",
+        "carHash": "44a4cd622eea211dac60978fc935f024",
+        "type": 6,
+        "seatsCount": 2,
+        "isGender": false,
+        "reservationType": 0,
+        "seats": [
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "2",
+            "compartmentNumber": 1
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "4",
+            "compartmentNumber": 1
+          }
+        ]
+      },
+      "171ea6e0e608c92107929f71ac04de80": {
+        "hash": "171ea6e0e608c92107929f71ac04de80",
+        "serviceClassHash": "5f067d86e751fe0653dc205503842f2e",
+        "carHash": "44a4cd622eea211dac60978fc935f024",
+        "type": 2,
+        "seatsCount": 2,
+        "isGender": false,
+        "reservationType": 0,
+        "seats": [
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "33",
+            "compartmentNumber": 9
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "35",
+            "compartmentNumber": 9
+          }
+        ]
+      },
+      "1e6129e60263e56b599104306e59df98": {
+        "hash": "1e6129e60263e56b599104306e59df98",
+        "serviceClassHash": "5f067d86e751fe0653dc205503842f2e",
+        "carHash": "44a4cd622eea211dac60978fc935f024",
+        "type": 6,
+        "seatsCount": 2,
+        "isGender": false,
+        "reservationType": 0,
+        "seats": [
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "34",
+            "compartmentNumber": 9
+          },
+          {
+            "genderType": 4,
+            "deck": 0,
+            "number": "36",
+            "compartmentNumber": 9
+          }
+        ]
+      }
+    },
+    "serviceClasses": {
+      "0776b71f4f35ad8030d4542a347d7711": {
+        "hash": "0776b71f4f35ad8030d4542a347d7711",
+        "name": "2Ф",
+        "description": "Можно с питомцем.",
+        "services": [
+          0,
+          29,
+          2,
+          11,
+          28,
+          3,
+          7,
+          20,
+          1
+        ],
+        "optionalServices": [],
+        "petRules": "Провезти питомца можно только если вы выкупили купе целиком. Животному или птице нужно оформить бесплатный перевозочный документ — сделать это можно в кассе вокзала до отправления поезда. На 1 месте можно провезти 1 переноску с питомцем или одну крупную собаку без переноски, но в наморднике и на поводке — путешествовать она будет на полу купе. Мелкие животные должны находиться в переноске на протяжении всей поездки. В одной переноске могут ехать не больше 2 мелких животных. Размер переноски не должен превышать 180 см по сумме длины, ширины и высоты. Количество переносок и крупных собак не должно быть больше количества мест в купе."
+      },
+      "5f067d86e751fe0653dc205503842f2e": {
+        "hash": "5f067d86e751fe0653dc205503842f2e",
+        "name": "2К",
+        "description": "Купейный без услуг, 4-местные купе, кондиционер (работает в летний период), биотуалет, розетки 220В, Wi-Fi (услуга не гарантирована). Возможен провоз животных (см. правила перевозки).",
+        "services": [
+          0,
+          29,
+          2,
+          28,
+          3,
+          7,
+          20,
+          1
+        ],
+        "optionalServices": [],
+        "petRules": "Условия зависят от формата поездки: выкупили ли вы купе целиком или нет.\nЕсли вы выкупили купе целиком, доплата за животных не нужна. Но нужно оформить бесплатный перевозочный документ на каждого питомца. Сделать это можно в кассе до отправления поезда. На 1 месте можно провезти 1 переноску с питомцем или одну крупную собаку без переноски, но в наморднике и на поводке — путешествовать она будет на полу купе. Количество переносок и крупных собак не должно быть больше количества мест в купе.\nЕсли купе выкуплено не полностью, 1 пассажир может провезти не более 2 небольших домашних животных — собак, кошек или птиц. Ехать с крупной собакой нельзя. Питомцы должны путешествовать в переноске, размер которой не должен превышать 180 см по сумме длины, ширины и высоты. Животным и птицам должно быть комфортно внутри переноски на протяжении всей поездки. На каждую переноску нужен отдельный платный перевозочный документ. Оформить его можно в кассе вокзала до отправления поезда."
+      },
+      "6587e4d3cbe5639b922c84c272a5730f": {
+        "hash": "6587e4d3cbe5639b922c84c272a5730f",
+        "name": "2Э",
+        "description": "С ланч-боксом или горячим завтраком. Крупных собак и мелких животных провозить запрещено.",
+        "services": [
+          0,
+          2,
+          11,
+          28,
+          3,
+          7,
+          20,
+          1
+        ],
+        "optionalServices": [],
+        "petRules": ""
+      }
+    },
+    "services": {
+      "0": {
+        "name": 0,
+        "description": "нет описания",
+        "label": "Кондиционер"
+      },
+      "1": {
+        "name": 1,
+        "description": "нет описания",
+        "label": "Постельное бельё"
+      },
+      "2": {
+        "name": 2,
+        "description": "нет описания",
+        "label": "Биотуалет"
+      },
+      "3": {
+        "name": 3,
+        "description": "нет описания",
+        "label": "Вагон-ресторан или буфет"
+      },
+      "7": {
+        "name": 7,
+        "description": "нет описания",
+        "label": "Дорожный набор"
+      },
+      "11": {
+        "name": 11,
+        "description": "нет описания",
+        "label": "Питание"
+      },
+      "20": {
+        "name": 20,
+        "description": "нет описания",
+        "label": "Тапочки"
+      },
+      "28": {
+        "name": 28,
+        "description": "нет описания",
+        "label": "Wi-Fi"
+      },
+      "29": {
+        "name": 29,
+        "description": "нет описания",
+        "label": "Можно с питомцем"
+      }
+    },
+    "fareApplications": {
+      "130b6dd745f7189d3bcfa0de64218432": {
+        "hash": "130b6dd745f7189d3bcfa0de64218432",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "171ea6e0e608c92107929f71ac04de80",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 194940,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            },
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 21660,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "130b6dd745f7189d3bcfa0de64218432",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 24607,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "cee21f59dda08e93166fd82e23544209": {
+        "hash": "cee21f59dda08e93166fd82e23544209",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "9ef222e663d42992f9fd7363289ec6e2",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 459540,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 51059,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "cee21f59dda08e93166fd82e23544209",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 64189,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "0ce4e469eef49ebaecdf09eba9085f32": {
+        "hash": "0ce4e469eef49ebaecdf09eba9085f32",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "9ef222e663d42992f9fd7363289ec6e2",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 194940,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            },
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 21660,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "0ce4e469eef49ebaecdf09eba9085f32",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 24607,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "85c3080ae657936b5f3cf4660b4d082c": {
+        "hash": "85c3080ae657936b5f3cf4660b4d082c",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "171ea6e0e608c92107929f71ac04de80",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 216600,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "85c3080ae657936b5f3cf4660b4d082c",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 24607,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "b64260802f8cb370b928f9b42992862c": {
+        "hash": "b64260802f8cb370b928f9b42992862c",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "74075473f188c25181e5eae167112f6c",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 210018,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "b64260802f8cb370b928f9b42992862c",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 38028,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "ff73e7cea5a7851be0a1c6f441566432": {
+        "hash": "ff73e7cea5a7851be0a1c6f441566432",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "9ef222e663d42992f9fd7363289ec6e2",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 510599,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "ff73e7cea5a7851be0a1c6f441566432",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 64189,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "430cbfb7e0ed0f2fa2d5999ac4b0cd5e": {
+        "hash": "430cbfb7e0ed0f2fa2d5999ac4b0cd5e",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "171ea6e0e608c92107929f71ac04de80",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 510599,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "430cbfb7e0ed0f2fa2d5999ac4b0cd5e",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 64189,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "cdb177093093f4fbc04941518a6c625a": {
+        "hash": "cdb177093093f4fbc04941518a6c625a",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "74075473f188c25181e5eae167112f6c",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 401679,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 44630,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "cdb177093093f4fbc04941518a6c625a",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 57049,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "dcb018e24e19a8aa8170ec356bfb4af9": {
+        "hash": "dcb018e24e19a8aa8170ec356bfb4af9",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "d16a8be5d1593bf863130e5ac3ea75bf",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 210018,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "dcb018e24e19a8aa8170ec356bfb4af9",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 38028,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "cd5aeb9d129fb872863cf85a0c827b85": {
+        "hash": "cd5aeb9d129fb872863cf85a0c827b85",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "d16a8be5d1593bf863130e5ac3ea75bf",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 446309,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "cd5aeb9d129fb872863cf85a0c827b85",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 57049,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "ec35c34bec4760a4681951e9409cbf59": {
+        "hash": "ec35c34bec4760a4681951e9409cbf59",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "b59cdec91f9842f91b1c3d1172c676f0",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 194940,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            },
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 21660,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "ec35c34bec4760a4681951e9409cbf59",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 24607,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "3e131c5c41f3640146ca28095b10e0f5": {
+        "hash": "3e131c5c41f3640146ca28095b10e0f5",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "1e6129e60263e56b599104306e59df98",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 446309,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "3e131c5c41f3640146ca28095b10e0f5",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 57049,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "852ff1d7ce225f1a5444dbcc4d0c5a5c": {
+        "hash": "852ff1d7ce225f1a5444dbcc4d0c5a5c",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "1e6129e60263e56b599104306e59df98",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 401679,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 44630,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "852ff1d7ce225f1a5444dbcc4d0c5a5c",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 57049,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "9f0bf99d2bf435ce59b4b7f0da65db48": {
+        "hash": "9f0bf99d2bf435ce59b4b7f0da65db48",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "b59cdec91f9842f91b1c3d1172c676f0",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 510599,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "9f0bf99d2bf435ce59b4b7f0da65db48",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 64189,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "e46af41faf500882b839470fcea6e9a5": {
+        "hash": "e46af41faf500882b839470fcea6e9a5",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "b59cdec91f9842f91b1c3d1172c676f0",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 216600,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "e46af41faf500882b839470fcea6e9a5",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 24607,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "8da51558418a9f07a4d4b3f487f907a9": {
+        "hash": "8da51558418a9f07a4d4b3f487f907a9",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "d16a8be5d1593bf863130e5ac3ea75bf",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 189017,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            },
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 21001,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "8da51558418a9f07a4d4b3f487f907a9",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 38028,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "34ff417295c5a85c5305c020a3c67139": {
+        "hash": "34ff417295c5a85c5305c020a3c67139",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "b59cdec91f9842f91b1c3d1172c676f0",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 459540,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 51059,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "34ff417295c5a85c5305c020a3c67139",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 64189,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "379e1e6b9e982e23f3f677841c38c285": {
+        "hash": "379e1e6b9e982e23f3f677841c38c285",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "1e6129e60263e56b599104306e59df98",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 189017,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            },
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 21001,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "379e1e6b9e982e23f3f677841c38c285",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 38028,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "6c74ef8aa4dc944f3127b3aa114e5ceb": {
+        "hash": "6c74ef8aa4dc944f3127b3aa114e5ceb",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "d16a8be5d1593bf863130e5ac3ea75bf",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 401679,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 44630,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "6c74ef8aa4dc944f3127b3aa114e5ceb",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 57049,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "b1c884f0db8808194e6a50a7925ee8b5": {
+        "hash": "b1c884f0db8808194e6a50a7925ee8b5",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "74075473f188c25181e5eae167112f6c",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 446309,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "b1c884f0db8808194e6a50a7925ee8b5",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 57049,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "1a82c75d9833d8353d623cf748d81983": {
+        "hash": "1a82c75d9833d8353d623cf748d81983",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "9ef222e663d42992f9fd7363289ec6e2",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 216600,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "1a82c75d9833d8353d623cf748d81983",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 24607,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "b9577757aa7d6f397daf30fb38802a8e": {
+        "hash": "b9577757aa7d6f397daf30fb38802a8e",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "74075473f188c25181e5eae167112f6c",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 189017,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            },
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 21001,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "b9577757aa7d6f397daf30fb38802a8e",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 38028,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "21340dc377e719d455b2919e6a46efb5": {
+        "hash": "21340dc377e719d455b2919e6a46efb5",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+        "seatGroupHash": "171ea6e0e608c92107929f71ac04de80",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "bf65073c3aa90607c2a80ffdc93da342",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 459540,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 446410,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 0,
+              "value": 0,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 51059,
+                "precision": 2
+              },
+              "name": "loyalty_alfa_wallet",
+              "description": "",
+              "metadata": {
+                "paywayIcons": [
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/light/compact/circle/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/alfabank-compact/color/dark/compact/circle/logo.png",
+                    "orderIndex": 0
+                  },
+                  {
+                    "lightURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/light/compact/noshape/logo.png",
+                    "darkURL": "https://cdn1.tu-tu.ru/lib-assets/@tutu/kite-assets@0.11.4/logos/tutu-wallet/color/dark/compact/noshape/logo.png",
+                    "orderIndex": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "21340dc377e719d455b2919e6a46efb5",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 64189,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      },
+      "80c84d9bcd0fd8875a35c20aafb82195": {
+        "hash": "80c84d9bcd0fd8875a35c20aafb82195",
+        "segmentHash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "seatGroupHash": "1e6129e60263e56b599104306e59df98",
+        "fareType": 0,
+        "rules": [],
+        "price": {
+          "passengerHash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+          "total": {
+            "currencyCode": "RUB",
+            "amount": 210018,
+            "precision": 2
+          },
+          "fare": {
+            "currencyCode": "RUB",
+            "amount": 389260,
+            "precision": 2
+          },
+          "fareDiscounts": [
+            {
+              "type": 2,
+              "value": 65,
+              "fixed": {
+                "currencyCode": "RUB",
+                "amount": 0,
+                "precision": 0
+              },
+              "name": "Child",
+              "description": "Child",
+              "metadata": {
+                "paywayIcons": []
+              }
+            }
+          ],
+          "requestedServices": [],
+          "tax": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "gateFee": {
+            "currencyCode": "RUB",
+            "amount": 3170,
+            "precision": 2
+          },
+          "partnerFee": {
+            "currencyCode": "RUB",
+            "amount": 0,
+            "precision": 2
+          },
+          "fareApplicationHash": "80c84d9bcd0fd8875a35c20aafb82195",
+          "serviceFee": {
+            "currencyCode": "RUB",
+            "amount": 38028,
+            "precision": 2
+          },
+          "bonuses": []
+        }
+      }
+    },
+    "passengers": {
+      "bf65073c3aa90607c2a80ffdc93da342": {
+        "hash": "bf65073c3aa90607c2a80ffdc93da342",
+        "type": 0
+      },
+      "7bfc81c15eaab26ff3f5cb687999b1b9": {
+        "hash": "7bfc81c15eaab26ff3f5cb687999b1b9",
+        "type": 1
+      }
+    },
+    "segments": {
+      "eafc4f1845ea2cfddd2997393fa7d45f": {
+        "hash": "eafc4f1845ea2cfddd2997393fa7d45f",
+        "type": 0,
+        "departureId": 2958868,
+        "arrivalId": 2958266,
+        "departureDateTime": "2026-12-14T21:20:00.000Z",
+        "arrivalDateTime": "2026-12-15T06:27:00.000Z",
+        "duration": 32820,
+        "voyageNumber": "4afda77d324ac4d1bfdd45bb34d917fe",
+        "bookingGroupId": 0,
+        "vehicle": "3796e525458f84ccd3ccb0de483cfea8"
+      }
+    },
+    "points": {
+      "2958266": {
+        "id": 2958266,
+        "cityId": 2656915,
+        "railwayId": 4252813,
+        "code": "2004001",
+        "name": {
+          "accusative": "Санкт-Петербург-Главн.",
+          "dative": "Санкт-Петербургу-Главн.",
+          "genitive": "Санкт-Петербурга-Главн.",
+          "instrumental": "Санкт-Петербургом-Главн.",
+          "nominative": "Санкт-Петербург-Главн.",
+          "prepositional": "Санкт-Петербурге-Главн."
+        },
+        "tzName": "Europe/Moscow",
+        "railwayTzName": "Europe/Moscow"
+      },
+      "2958868": {
+        "id": 2958868,
+        "cityId": 2657260,
+        "railwayId": 4252813,
+        "code": "2006004",
+        "name": {
+          "accusative": "Москву Октябрьскую",
+          "dative": "Москве Октябрьской",
+          "genitive": "Москвы Октябрьской",
+          "instrumental": "Москвой Октябрьской",
+          "nominative": "Москва Октябрьская",
+          "prepositional": "Москве Октябрьской"
+        },
+        "tzName": "Europe/Moscow",
+        "railwayTzName": "Europe/Moscow"
+      }
+    }
+  }
+}
